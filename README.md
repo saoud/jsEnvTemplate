@@ -15,10 +15,13 @@ Expect:
 ```
  
 ## Technologies Used
-* Javascript
+* Javascript ES6
 * JQuery
 * HTML
 * CSS
+* Node Package Manager
+* Jest
+* Webpack
 
 ## Set up / Installation requirements
 * Open up a terminal and clone the repo 
