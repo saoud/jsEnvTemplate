@@ -22,6 +22,7 @@ Expect:
 * Node Package Manager
 * Jest
 * Webpack
+* Bootstrap
 
 ## Set up / Installation requirements
 * Open up a terminal and clone the repo 
