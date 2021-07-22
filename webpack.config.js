@@ -18,7 +18,11 @@ module.exports = {
     new CleanWebpackPlugin(),
     new Dotenv(),
     new HtmlWebpackPlugin({
+<<<<<<< HEAD
       title: 'Martian News Service',
+=======
+      title: 'Galactic Age Calculator',
+>>>>>>> parent of 1abb030 (fixing template with correct package.json and webpack.config.js)
       template: './src/index.html',
       inject: 'body'
     })
@@ -33,6 +37,7 @@ module.exports = {
         ]
       },
       {
+<<<<<<< HEAD
       test: /\.js$/,
       exclude: /node_modules/,
       loader: "eslint-loader"
@@ -55,6 +60,12 @@ module.exports = {
           'html-loader'
         ]
       },
+=======
+        test: /\.js$/,
+        exclude: /node_modules/,
+        loader: "eslint-loader"
+      }
+>>>>>>> parent of 1abb030 (fixing template with correct package.json and webpack.config.js)
     ]
   }
 };
